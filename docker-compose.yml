@@ -16,9 +16,9 @@ services:
          - RCON_ENABLED=true
          - RCON_PORT=25575
          - TZ=UTC
-         - ADMIN_PASSWORD="adminPasswordHere"
-         - COMMUNITY=false  # Enable this if you want your server to show up in the community servers tab, USE WITH SERVER_PASSWORD!
-         - SERVER_NAME="World of Pals"
+         - ADMIN_PASSWORD="admin"
+         - COMMUNITY=true  # Enable this if you want your server to show up in the community servers tab, USE WITH SERVER_PASSWORD!
+         - SERVER_NAME="liaojingworld"
          - SERVER_DESCRIPTION=""
       volumes:
          - ./palworld:/palworld/
